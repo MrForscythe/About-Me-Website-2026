@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* 1. Body (Global layout, background image, and text color) */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: white; /* Changed text color to white */
+            padding: 20px;
+            /* Added background image and styling */
+            background-image: url('Birddy.webp'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* 2. Main Heading */
+        h1 {
+            color: #ffffff; /* Changed to white for visibility */
+            border-bottom: 2px solid #ffffff; 
+            padding-bottom: 10px;
+        }
+
+        /* 3. Subheadings */
+        h2 {
+            color: #00e676; /* Changed to a bright color for visibility */
+            margin-top: 30px;
+        }
+
+        /* 4. Paragraphs */
+        p {
+            font-size: 16px;
+            color: #f0f0f0; /* Light gray for readability */
+        }
+
+        /* 5. Unordered Lists */
+        ul {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to read text */
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+        }
+
+        /* Class 1: Custom layout container for photos */
+        .photo-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        /* Class 2: Style to control and resize the images properly */
+        .profile-photo {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        /* Class 3: Highlight effect for specific list items */
+        .favorite-highlight {
+            font-weight: bold;
+            color: #ff5252; /* Lighter red for contrast */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>About Me Danny!!</h1>
+
+    <!-- Facts About Yourself -->
+    <h2>Facts About Me</h2>
+    <ul>
+        <li>I have a cat named Spotty.</li>
+        <li>I used to be fat and chubby boy, I am obviously the brown one!!!</li>
+        <li>I like hiking.</li>
+        <li>I went to a Catholic School growing up.</li>
+    </ul>
+
+    <img src="fatty.jpeg" alt="Image not found" width="500px" height="200"/>
+    <img src="Spotty.jpeg" alt="Image not found" width="200px" height="200"/>
+
+</body>
+</html>
+
