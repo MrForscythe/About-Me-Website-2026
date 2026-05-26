@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IM SO GEEKED</title>
+    <style>
+      em {
+        font-size: 20px;
+        color: blue;
+      }
+
+      h4 {
+        font-size: 15px;
+        color: orange;
+      }
+
+      h1 {
+        font-size: 30px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IM SO GEEKED</h1>
+    <hr>
+    <h2><em>cosign by goatsythe</em></h2>
+    <hr>
+
+    <h4>im a master in league of legends</h4>
+    <br>
+    <h4>im tired</h4>
+    <br>
+</html>
