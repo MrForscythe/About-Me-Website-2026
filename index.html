@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P4 APCSP 2026</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #111, #222);
+      color: white;
+      min-height: 100vh;
+
+      /* Tiger stripe effect */
+      background-image:
+        repeating-linear-gradient(
+          45deg,
+          #111 0px,
+          #111 20px,
+          #ff8800 20px,
+          #ff8800 40px
+        );
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 70px;
+      margin-bottom: 10px;
+      color: black;
+      text-shadow:
+        0 0 10px yellow,
+        0 0 20px orange,
+        0 0 40px red;
+      animation: flash 1s infinite alternate;
+    }
+
+    @keyframes flash {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.05);
+      }
+    }
+
+    h2 {
+      margin-bottom: 50px;
+      font-size: 28px;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 250px);
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .student {
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 3px solid orange;
+      border-radius: 12px;
+      padding: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 0 10px orange;
+    }
+    
+    .student:hover {
+        transform: scale(1.12);
+        transition: 0.2s ease;
+        cursor: grab;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>P4 APCSP 2026</h1>
+
+    <h2>Mr Forsythe - Noble Street College Prep</h2>
+
+    <div class="grid">
+      <div class="student">Alonzo, Anaiah</div>
+      <div class="student">Alvarez, Joseph</div>
+      <div class="student">Biles, Quevon</div>
+
+      <div class="student">Carvajal, Christopher</div>
+      <div class="student">Cocroft, Kayla</div>
+      <div class="student">Fedenko, Dmytro</div>
+
+      <div class="student">Fontanez, Jaiden</div>
+      <div class="student">Hazameh, Yaseen</div>
+      <div class="student">Hernandez, Jose</div>
+
+      <div class="student">Higuera Santana, Kenya</div>
+      <div class="student">Jones, Byron</div>
+      <div class="student">Jones, Chassidy</div>
+
+      <div class="student">Maya, Fernando</div>
+      <div class="student">Monroy Junior, Fernando</div>
+      <div class="student">Santillanes, Amy</div>
+
+      <div class="student">Sosa, Valeria</div>
+      <div class="student">Tacuri, George</div>
+      <div class="student">Velasquez, Daniel</div>
+
+      <div class="student">Walker, Elizabeth</div>
+    </div>
+
+  </div>
+</body>
+</html>
