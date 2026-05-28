@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+        /* CLASS 1 */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px gray;
+        }
+
+        /* CLASS 2 */
+        .highlight {
+            color: darkblue;
+            font-weight: bold;
+        }
+
+        /* CLASS 3 */
+        .photo {
+            width: 250px;
+            border-radius: 15px;
+            margin: 10px;
+        }
+
+        /* 5 TAGS STYLED */
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: square;
+            text-align: left;
+            display: inline-block;
+        }
+
+        img {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>About Me</h1>
+
+        <p>Hello! My name is <span class="highlight">Dmytro Fedenko</span>.</p>
+
+        <h2>3 Facts About Me</h2>
+        <p>1. I enjoy driving cars.</p>
+        <p>2. My favorite subject is technology.</p>
+        <p>3. I love listening to music.</p>
+    </div>
+
+    <div class="card">
+        <h2>My Favorite Things</h2>
+
+        <ul>
+            <li>Pizza</li>
+            <li>Video Games</li>
+            <li>Cars</li>
+            <li>Traveling</li>
+            <li>Music</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>My Photos</h2>
+
+       <!-- PHOTO 1 -->
+<img class="photo"
+     src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+     alt="Nature Photo">
+
+<!-- PHOTO 2 -->
+<img class="photo"
+     src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+     alt="Music Photo">
+    </div>
+
+</body>
+</html>
