@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>IM SO GEEKED</title>
-    <style>
-      em {
-        font-size: 20px;
-        color: blue;
-      }
+<html> 
+<head>
+  <style> 
+    /* 3 Classes styled */
+    .food { color: gold; } 
+    .game { color: red; } 
+    .fact-text { font-style: italic; } /* Added 3rd class */
 
-      h4 {
-        font-size: 15px;
-        color: orange;
-      }
+    /* 5 Tags styled */
+    h1 { color: orange; } 
+    h2 { color: blue; } 
+    body { background-color: silver; } 
+    li { font-family: sans-serif; } /* Added 4th tag style */
+    span { font-size: 24px; font-weight: bold; } /* Added 5th tag style */
+  </style> 
+</head>
 
-      h1 {
-        font-size: 30px;
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>IM SO GEEKED</h1>
-    <hr>
-    <h2><em>cosign by goatsythe</em></h2>
-    <hr>
+<body> 
+  <h1>Things I like</h1> 
 
-    <h4>im a master in league of legends</h4>
-    <br>
-    <h4>im tired</h4>
-    <br>
-</html>
+  <!-- Favorite things list -->
+  <ul> 
+    <li class="food">Food</li> 
+    <li class="game">game</li> 
+    <li>hanging out friends</li> 
+    <li>vibing</li> 
+  </ul> 
+
+  <h1><span class="big">These are some examples</span></h1> 
+
+  <!-- 2 Photos added -->
+  <img src="https://codehs.com/uploads/c5536ad63787792a5925f2a6eb12d7ac" alt="Image not found" width="200px" height="200px"> 
+  <img src="https://codehs.com/uploads/df8ce2260e0144ecf2e253cc501109b9" alt="Image not found" width="200px" height="200px"> 
+
+  <h1>these are some fun facts</h1> 
